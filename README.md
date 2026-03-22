@@ -101,15 +101,14 @@ Each image is rescaled to improve training stability.
 - Google Colab
 ---
 ## 📊 Training Pipeline
-1️⃣ Load dataset using ImageDataGenerator
-2️⃣ Apply data augmentation
-3️⃣ Analyze class imbalance
-4️⃣ Compute class weights
-5️⃣ Load Xception pretrained model
-6️⃣ Add custom classification layers
-7️⃣ Compile with multiple evaluation metrics
-8️⃣ Train the model on the training set
-9️⃣ Evaluate on validation and test sets
+1. Load dataset using ImageDataGenerator
+2. Apply data augmentation
+3. Analyze class imbalance
+4. Compute class weights
+5. Load Xception pretrained model
+6. Add custom classification layers
+7. Compile with multiple evaluation metricsTrain the model on the training set
+8. Evaluate on validation and test sets
 ---
 ## 📈 Evaluation Metrics
 The model is evaluated using multiple metrics important for medical diagnosis systems:
