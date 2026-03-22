@@ -2,7 +2,7 @@
 Deep learning–based medical image classification system for detecting Pneumonia from chest X-ray images using a transfer learning CNN architecture (Xception).
 The model is trained with data augmentation and class-imbalance handling to improve generalization and reliability in medical diagnosis scenarios.
 
----
+
 ## 📌 Project Overview
 Pneumonia is a serious lung infection that can be detected through chest X-ray imaging. However, manual diagnosis is time-consuming and requires expert radiologists.
 
@@ -13,7 +13,7 @@ This project builds an automated deep learning pipeline that classifies chest X-
 
 The model leverages transfer learning with the Xception architecture to extract high-level features from medical images and achieve strong classification performance.
 
----
+
 ## 🧠 Model Architecture
 The model uses transfer learning with a pre-trained convolutional neural network.
 
@@ -45,7 +45,7 @@ Binary Crossentropy
 - AUC
 - Recall
 - Precision
----
+  
 ## ⚙️ Key Features
 1️. Data Augmentation
 - To improve model generalization:
@@ -65,6 +65,7 @@ This project uses class weighting to ensure the model learns minority classes ef
 ```text
 sklearn.utils.class_weight
 ```
+
 3. Transfer Learning
    
 Instead of training from scratch, the model uses Xception pretrained weights to leverage learned visual features.
@@ -73,7 +74,7 @@ Benefits:
 - Faster training
 - Better accuracy
 - Reduced data requirement
----
+  
 ## 📂 Dataset
 The project uses a Chest X-Ray Pneumonia dataset containing images divided into:
 ```text
@@ -91,7 +92,7 @@ test/
 ```
 Each image is rescaled to improve training stability.
 
----
+
 ## 🛠 Tech Stack
 - Python
 - TensorFlow / Keras
@@ -99,7 +100,7 @@ Each image is rescaled to improve training stability.
 - Matplotlib
 - Scikit-learn
 - Google Colab
----
+  
 ## 📊 Training Pipeline
 1. Load dataset using ImageDataGenerator
 2. Apply data augmentation
@@ -109,7 +110,7 @@ Each image is rescaled to improve training stability.
 6. Add custom classification layers
 7. Compile with multiple evaluation metricsTrain the model on the training set
 8. Evaluate on validation and test sets
----
+
 ## 📈 Evaluation Metrics
 The model is evaluated using multiple metrics important for medical diagnosis systems:
 | Metric    | Purpose                             |
@@ -118,7 +119,7 @@ The model is evaluated using multiple metrics important for medical diagnosis sy
 | AUC       | Model's ability to separate classes |
 | Recall    | Detecting pneumonia cases correctly |
 | Precision | Reducing false positives            |
----
+
 ## 🚀 How to Run the Project
 1. Clone the repository
 ```Bash
@@ -134,7 +135,7 @@ Open the notebook in Google Colab or Jupyter Notebook:
 ```
 Medical Image Classification for Disease Detection.ipynb
 ```
----
+
 ## 📷 Sample Workflow
 ```
 Chest X-ray Image
@@ -149,14 +150,15 @@ Binary Classification
         ↓
 Normal / Pneumonia
 ```
----
+
 ## 📌 Future Improvements
 Implement Grad-CAM for model explainability
 - Deploy model using Streamlit
 - Convert model to TensorFlow Lite for mobile inference
 - Train on larger medical datasets
----
+
 ## 👨‍💻 Author
-Subhajit Mandal
+**Subhajit Mandal**  
 Machine Learning Engineer (Aspiring)
-- Focus: Deep Learning | Computer Vision | Medical AI
+📧 Email: rana587mandal@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/subhajit-mandal-047649273
